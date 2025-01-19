@@ -1,2 +1,6 @@
 # Fashion-Demand-Zero-shot-Time-Series-Forecasting
-SSL sflab 프로젝트 code 정리
+## 1. Attention-based Multimodal RNN
+- visuelle 2.0
+- mindbridge
+## 2. Pop-signal
+- visuelle 2.0
