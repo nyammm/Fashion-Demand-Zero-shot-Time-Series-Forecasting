@@ -1,0 +1,31 @@
+import torch
+
+DEVICE = torch.device('cuda:2')
+IMAGE_PATH = "image_embeddings.pkl"
+DATASET_PATH = "total_data.csv"
+TRAIN_DATASET = "train_list.pkl"
+VALID_DATASET = "val_list.pkl"
+TEST_DATASET = "test_list.pkl"
+CATEG_TREND = "total_cat_trend.pkl"
+COLOR_TREND = "total_col_trend.pkl"
+FAB_TREND = "total_fab_trend.pkl"
+CATEG_DICT = "category_labels.pt"
+COLOR_DICT = "color_labels.pt"
+FAB_DICT = "fabric_labels.pt"
+NUM_EPOCHS = 50
+USE_TEACHERFORCING = True
+TF_RATE = 0.5
+LEARNING_RATE = 0.0001
+# NORMALIZATION_VALUES_PATH = "sales_norm_scalar.npy"
+BATCH_SIZE= 128
+SHOW_PLOTS = False
+NUM_WORKERS = 8
+USE_EXOG = True
+EXOG_NUM = 3
+EXOG_LEN = 52
+HIDDEN_SIZE = 512
+SAVED_FEATURES_PATH = "incv3_features"
+USE_SAVED_FEATURES = True
+NORM = False
+model_types = ["image", "concat", "residual", "cross"]
+MODEL = 0
